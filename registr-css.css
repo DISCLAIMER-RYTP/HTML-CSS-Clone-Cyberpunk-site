@@ -1,0 +1,81 @@
+body{
+    color: white;
+    font-family: Robo;
+    background-image: url("background-reg.png");
+background-size: cover;
+background-attachment: fixed;
+}
+
+@font-face {
+    font-family: Robo;
+    src: url(robo-font.ttf);
+}
+
+footer{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(255, 0, 0);
+}
+
+.div-all{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(255, 0, 0);
+margin-top: 5%;
+}
+
+.img-gif{
+    width: 250px;
+}
+
+.text-data{
+    font-size: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.data-input{
+    background-color: rgba(255, 0, 0, 0.527);
+    border-color: rgba(255, 255, 0, 0.349);
+    height: 25px;
+    border-radius: 25px 0 25px 0;
+    font-size: 20px;
+    
+}
+
+.input-div1{
+    margin: 20px 0 0 25%;
+}
+
+.input-div2{
+    margin: 20px 0 0 45%;
+}
+
+.btn{
+    width: max-content;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border-color: red;
+    color: red;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgba(255, 0, 0, 0.555);
+    color: black;
+    border-color: transparent;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+
+.btn-text{
+    font-size: 30px;
+}
+
+.cntr{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}

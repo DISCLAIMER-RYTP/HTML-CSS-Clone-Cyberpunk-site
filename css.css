@@ -1,0 +1,260 @@
+body{
+    /*background-color: rgb(5, 5, 63);*/
+    color: white;
+    font-family: Robo;
+    background-image: url("background-long.png");
+}
+
+
+@font-face {
+    font-family: Robo;
+    src: url(robo-font.ttf);
+   }
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top:0px;
+    width: 100%;
+}
+
+.text-head1{
+    margin-top: 2%;
+    font-size: 13px;
+    margin-right: 3%;
+}
+
+.text-head2{
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.vstup{
+    display: flex;
+justify-content: flex-end;
+text-align: right;
+margin: 10px;
+margin-bottom: 5px;
+margin-right: 10%;
+}
+
+.simple-text{
+    font-size: 15px;
+}
+
+
+.video1{
+    background-color: transparent;
+    padding: 0px;
+}
+
+.img-logo1{
+    margin-left: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.vstup-text{
+    margin: 3%;
+    color: yellow;
+    text-align: center;
+}
+
+.img-logo2{
+width: 200px;
+height: 200px;
+margin-left: 45%;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#bld{
+    font-weight: bold;
+}
+
+.btn-reestr{
+    width: 15%;
+    height: 40px;
+    background: transparent;
+    text-align: center;
+    border-radius: 10px;
+    border-color: yellow;
+    margin: 1%;
+    margin-bottom: 0px;
+    float:left;
+    text-align: center;
+    font-weight: 35px;
+    color: yellow;
+    font-weight: bold;
+}
+
+
+#center{
+
+    display: flex;
+    justify-items: center;
+}
+
+.spam-img{
+    width: auto;
+    height: auto;
+    margin: 10px 20px 10px 20px;
+    float: right;
+}
+
+.spam-img2{
+    width: auto;
+    height: auto;
+    margin: 10px 20px 10px 20px;
+}
+
+
+.btn-reestr:hover{
+    background-color: yellow;
+    transition: 1s;
+    color: rgb(5, 5, 63);
+}
+
+.hor-line{
+    margin-left:1%;
+    margin-right: 1%;
+    height: 5px;
+    background-color: yellow;
+    margin-top: 2%;
+}
+
+.hist, .hist2{
+    width: 150px;
+    text-align: center;
+    align-self: center;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    margin-left: 45%;
+    padding-top: 7px;
+}
+
+.hist2{
+    width: 200px;
+}
+
+.btn-text-hist{
+    color: rgb(5, 5, 63);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text1{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.div-hist{
+    padding: 2%;
+    display: flex;
+justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    margin: 0;
+    align-items: center;
+}
+
+.img-hist{
+    margin: 0 3% 0 3%;
+    width: 131;
+    height: 131;
+}
+
+.yellow-text{
+    color: yellow;
+    font-size: 25;
+    font-weight: bold;
+}
+
+.simple-div{
+    padding: 2%;
+}
+
+.carousel-img-3{
+    width: 65%;
+    height: 65%;
+    min-width: 450px;
+    min-height: 280px;
+    margin: 2%;
+    margin-left: 15%;
+}
+
+.img-spam2{
+    margin: 2%;
+    width: 25%;
+    height: 25%;
+    float: right;
+}
+
+.card{
+    width: 18%;
+    height: max-content;
+margin: 1%;
+background-color: transparent;
+}
+
+.card:hover{
+    border-color: yellow;
+    border-width: 3px;
+}
+
+.area-img{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+.overfl{
+    height: 250px;
+}
+
+.name-city{
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+
+}
+
+.text-area{
+    font-size: 13px;
+}
+
+.cards-div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.carousel-img-17{
+    width: 85%;
+    min-width: 450px;
+    min-height: 280px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
